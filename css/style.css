@@ -1,0 +1,31 @@
+.conteiner {
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid red;
+    background: #3f3a3a;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+
+.img {
+    width: 300px;
+    overflow: hidden;
+}
+img {
+    width: 300px;
+    transition: all 0.7s linear;
+    -webkit-transition: all 0.7s linear;
+    -moz-transition: all 0.7s linear;
+    -ms-transition: all 0.7s linear;
+    -o-transition: all 0.7s linear;
+}
+img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
